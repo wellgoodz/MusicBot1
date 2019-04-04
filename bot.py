@@ -5,7 +5,6 @@ import asyncin
 import random
 import requests
 import os
-import pip
 
 client = commands.Bot(command_prefix="!")
 player_dict = dict()

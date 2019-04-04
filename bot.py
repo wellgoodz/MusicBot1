@@ -5,6 +5,7 @@ import asyncin
 import random
 import requests
 import os
+import pip
 
 client = commands.Bot(command_prefix="!")
 player_dict = dict()
@@ -31,4 +32,5 @@ async def stop(ctx):
     player = player_dict[server.id]
     player.stop()
     del player_dict[server.id]
+    
 client.run("NTYzNDUyMzQxODU3MTU3MTMw.XKZiRg.5SEWc5NFgxqHAt9HD2tRkHiewvU")

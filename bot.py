@@ -1,4 +1,10 @@
+import discord
 from discord.ext import commands
+from discord.ext.commands import Bot
+import asyncin
+import random
+import requests
+import os
 
 client = commands.Bot(command_prefix="!")
 player_dict = dict()

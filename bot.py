@@ -32,4 +32,4 @@ async def stop(ctx):
     player.stop()
     del player_dict[server.id]
     
-client.run(str(os.eviron.get("NTYzNDUyMzQxODU3MTU3MTMw.XKZiRg.5SEWc5NFgxqHAt9HD2tRkHiewvU")))
+client.run(str(os.eviron.get("BOT_TOKEN")))
